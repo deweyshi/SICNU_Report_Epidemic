@@ -4,7 +4,7 @@
 #### 安装Selenium
 `pip install selenium`
 #### 下载对应的Chrome和ChromeDriver
-Linux，Mac，Windows都可以  
+Linux，Mac，Windows都可以，安装方法自行百度
 Chrome：https://www.google.com/chrome/  
 ChromeDriver：https://chromedriver.chromium.org/downloads  
 #### 填写用户名和密码
@@ -24,9 +24,12 @@ userInfo = [
 查看刚设置的定时任务：   
 `crontab -l`
 #### 注意
-有图形界面的，可以注释掉这三行，没有图形界面的，一定要有，不然可能会报错。
+1.ChromeDriver下载了和sicnu_report.py放在同一文件夹下；  
+2.有图形界面的，可以注释掉这三行，没有图形界面的，一定要有，不然可能会报错。
 ```
 options.add_argument('headless')
 options.add_argument('no-sandbox')
 options.add_argument('disable-dev-shm-usage')
 ```
+#### 效果
+运行完成会自动截图保存，效果如下：
