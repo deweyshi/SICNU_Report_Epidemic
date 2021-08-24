@@ -1,6 +1,5 @@
 # SICNU_Report_Epidemic
 四川师范大学疫情健康报告打卡
----
 #### 测试环境
 ```
 Ubuntu 20.04.2 LTS (GNU/Linux 5.8.0-1038-oracle x86_64)
