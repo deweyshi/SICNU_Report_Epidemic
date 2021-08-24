@@ -30,7 +30,8 @@ userInfo = [
 `crontab -l`
 #### 注意
 1.ChromeDriver下载了和sicnu_report.py放在同一文件夹下；  
-2.有图形界面的，可以注释掉这三行，没有图形界面的，一定要有，不然可能会报错。
+2.一定要下载对应的Chrome和ChromeDriver；
+3.有图形界面的，可以注释掉这三行，没有图形界面的，一定要有，不然可能会报错。
 ```
 options.add_argument('headless')
 options.add_argument('no-sandbox')
