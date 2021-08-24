@@ -17,9 +17,9 @@ userInfo = [
 ```
 #### Linux下可配合crontab定时运行
 先看linux上有没有crontab，没有百度安装一下；  
-安装好的，输入：`crontab -e`
+安装好的，输入：`crontab -e`  
 按`i`：  
-`0 7 * * * cd /path/to/pyfile && nohup /root/anaconda3/bin/python -u sicnu_report.py>log.txt 2>&1 &`
+`0 7 * * * cd /path/to/pyfile && nohup /root/anaconda3/bin/python -u sicnu_report.py>log.txt 2>&1 &`  
 输入`:wq`保存   
 查看刚设置的定时任务：   
 `crontab -l`
