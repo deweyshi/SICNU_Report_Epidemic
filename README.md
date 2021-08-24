@@ -37,5 +37,5 @@ options.add_argument('no-sandbox')
 options.add_argument('disable-dev-shm-usage')
 ```
 #### 效果
-运行完成会自动截图保存，效果如下：
-![image](https://github.com/deweyshi/SICNU_Report_Epidemic/blob/main/2021-08-24-2020******.png)
+运行完成会自动截图保存，效果如下：  
+<img width="400px" src="https://github.com/deweyshi/SICNU_Report_Epidemic/blob/main/2021-08-24-2020******.png">
