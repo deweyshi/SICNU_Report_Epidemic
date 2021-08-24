@@ -1,0 +1,2 @@
+# SICNU_Report_Epidemic
+四川师范大学疫情健康报告打卡
