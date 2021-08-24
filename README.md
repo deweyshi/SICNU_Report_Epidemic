@@ -1,10 +1,15 @@
 # SICNU_Report_Epidemic
 四川师范大学疫情健康报告打卡
 ---
+#### 测试环境
+```
+Ubuntu 20.04.2 LTS (GNU/Linux 5.8.0-1038-oracle x86_64)
+python Python 3.8.8
+```
 #### 安装Selenium
 `pip install selenium`
 #### 下载对应的Chrome和ChromeDriver
-Linux，Mac，Windows都可以，安装方法自行百度
+Linux，Mac，Windows都可以，安装方法自行百度。  
 Chrome：https://www.google.com/chrome/  
 ChromeDriver：https://chromedriver.chromium.org/downloads  
 #### 填写用户名和密码
@@ -33,3 +38,4 @@ options.add_argument('disable-dev-shm-usage')
 ```
 #### 效果
 运行完成会自动截图保存，效果如下：
+![image](https://github.com/deweyshi/SICNU_Report_Epidemic/blob/main/2021-08-24-2020******.png)
