@@ -65,6 +65,9 @@ def main(userName, passWord, login_url):
         WebDriverWait(driver, 120).until(
             EC.presence_of_element_located((By.XPATH, '//*[@class="cjataj7ar"]'))
         )
+        WebDriverWait(driver, 120).until(
+            EC.presence_of_element_located((By.XPATH, '//*[@class="mint-indicator" and @style="display: none;"]'))
+        )
         logging.info(f'{userName}-succeed')
         driver.save_screenshot(f'{datetime.datetime.now():%Y-%m-%d}-{userName}.png')
     except Exception as e:
