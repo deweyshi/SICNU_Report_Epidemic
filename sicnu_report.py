@@ -63,7 +63,7 @@ def main(userName, passWord, login_url):
         )
         queding.click()
         WebDriverWait(driver, 120).until(
-            EC.presence_of_element_located((By.XPATH, '//*[@class="mint-indicator" and @style="display: none;"]'))
+            EC.presence_of_element_located((By.XPATH, '//*[@class="cjataj7ar"]'))
         )
         logging.info(f'{userName}-succeed')
         driver.save_screenshot(f'{datetime.datetime.now():%Y-%m-%d}-{userName}.png')
